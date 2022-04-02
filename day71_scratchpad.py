@@ -17,3 +17,7 @@ with open("71-v2/csv_try_2.csv", "w") as df:
     writer = csv.writer(df)
     writer.writerow(["a_list", "b_list"])
     writer.writerows([a, b])
+
+
+oldstring = "aaaabbbccc"
+print(oldstring.replace("l", ""))
